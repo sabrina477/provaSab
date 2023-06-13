@@ -1,0 +1,72 @@
+	
+		body {
+            background-image: url(https://img.freepik.com/fotos-gratis/linda-garota-tocando-seu-rosto-conceito-de-juventude-e-cuidados-com-a-pele_231208-13291.jpg?w=2000);
+			background-color: #f9f9f9;
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 40px;
+		}
+		h1 {
+			font-size: 36px;
+			color: #2c2f31;
+			margin-top: 0;
+			margin-bottom: 20px;
+		}
+		p {
+			font-size: 18px;
+			color: #333a3f;
+			margin-bottom: 20px;
+		}
+	
+    a {
+        display: inline-block;
+        background-color: #655dd3;
+        color: #fff;
+        font-size: 18px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-top: 20px #ff4db6ac;
+        transition: all 0.3s ease-in-out;
+    }
+    a:hover {
+        background-color: #666;
+    }
+
+	.banner{
+		height: 100vh;
+		background: linear-gradient(rgba(0,0,0,281),rgba(0,0,0,0,308)),url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.freepik.com%2Ffotos-vetores-gratis%2Festetica&psig=AOvVaw3HkzUwDezcww8xZP4MFV-W&ust=1686153605718000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCJiF2-iBr_8CFQAAAAAdAAAAABAD);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	}
+	.whatsapp-link {
+		position: fixed;
+		width: 60px;
+		height: 60px;
+		bottom: 40px;
+		right: 40px;
+		background-color: #25d366;
+		color: #fff;
+		border-radius: 50px;
+		text-align: center;
+		font-size: 30px;
+		box-shadow: 1px 1px 2px #888;
+		z-index: 1000;
+	}
+
+	.fa-whatsapp {
+		margin-top: 16px;
+		}
+
+
+

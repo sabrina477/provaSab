@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clínica de Estética - Contatos</title>
+    <link rel="stylesheet" href="style.css">
+	<style>
+    
+		body {
+			background-color: #f9f9f9;
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 40px;
+		}
+		h1 {
+			font-size: 36px;
+			color: #333;
+			margin-top: 0;
+			margin-bottom: 20px;
+		}
+		p {
+			font-size: 18px;
+			color: #666;
+			margin-bottom: 20px;
+		}
+		form {
+			margin-top: 20px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: center;
+		}
+		input, textarea {
+			border: none;
+			border-radius: 5px;
+			padding: 10px;
+			margin: 10px 0;
+			width: 45%;
+			font-size: 18px;
+		}
+		textarea {
+			height: 150px;
+		}
+		button {
+			border: none;
+			background-color: #333;
+			color: #fff;
+			font-size: 18px;
+			padding: 10px 20px;
+			border-radius: 5px;
+			cursor: pointer;
+			transition: all 0.3s ease-in-out;
+		}
+		button:hover {
+			background-color: #666;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Contatos</h1>
+		<p>Entre em contato conosco para esclarecer duvidas, enviar sugestoes ou marcar uma consulta.</p>
+		<form>
+			<input type="text" name="nome" placeholder="Nome">
+			<input type="email" name="email" placeholder="E-mail">
+			<input type="text" name="telefone" placeholder="Telefone">
+			<textarea name="mensagem" placeholder="Mensagem"></textarea>
+			<button type="submit">Enviar</button>
+            <a href="enviar"></a>
+		</form>
+	</div>
+</body>
+</html>
